@@ -2,12 +2,12 @@
 Place to dump prototype MRTK examples for Slack and other MRTK people!
 This is just a GitHub dump for misc UnityPackages associated with MRTK V2 RC1.
 
-#Unity Project Setup
+## Unity Project Setup
 Make sure you already have a Unity Project with MRTK in it. This package was created in Unity 2019.1.3f1.
 Package contains a modified Unity Scene from the original MRTK V2 RC1 - hence the MRTK requirement :) 
 Import the package.
 
-#Testing the Runtime Interactable Modifications
+### Testing the Runtime Interactable Modifications
 If there were no issues on the package import, Look for the Directory '{Your Unity Project Folder}'/Assets/JFuzzMRTK/RunTime/Scenes/HandInteractionExampleModified.scene
 
 1. Find the Pine tree and look at the GameObject called 'node_id30' it has two added scripts from this package, 'RunTimeBaseTester.cs' & 'RunTimeBaseAdjust.cs'
